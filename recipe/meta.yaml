@@ -1,5 +1,5 @@
 {% set name = "speedscope" %}
-{% set version = "1.20.0" %}
+{% set version = "1.21.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/jlfwong/speedscope/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 9f37ab533d5332c2e4c5b62dab79eb9bcf0d6bd5b3dd0bcb821ca36c1a58c7e0
+  sha256: 3106474c377355796a6a6c65caa9f6b65450d4f3cd8389ca8d957f70242ded49
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:
